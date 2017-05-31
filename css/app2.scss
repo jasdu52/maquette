@@ -1,0 +1,491 @@
+$blanc = #ffffff; 
+$blanc2 = #fafafa;
+$blanc3 = #222a30;
+$rouge = #a65447;
+$mauve = #a65447;
+$violet = #222a30;
+$gris = #465763;
+
+body {
+  width: 1400px;
+  background-color: $blanc2;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  height: 95px;
+}
+
+.menu ul {
+  li {
+    float: left;
+    list-style: none;
+    padding-left: 40px;
+    color: $mauve;
+    a {
+      font-size: 16px;
+      margin-left: 40px;
+    }
+  }
+  margin-bottom: -42px;
+  margin-left: 90px;
+  font-family: Open Sans;
+  font-size: 18px;
+  text-align: center;
+  color: $mauve;
+}
+
+.fond_Premiere {
+  width: 655px;
+  height: 143px;
+  background-color: $blanc;
+  margin-left: 625px;
+  margin-top: -400px;
+}
+
+.image_Premiere {
+  width: 735px;
+  height: 400px;
+}
+
+.t1_Premiere {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  color: $mauve;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+.t2_Premiere {
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: bold;
+  color: $mauve;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+.t3_Premiere {
+  font-family: Open Sans;
+  font-size: 14px;
+  color: $rouge;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+.fond_lorem_Premiere {
+  background-color: $blanc;
+  margin-right: 60px;
+  margin-right: 735px;
+  font-family: Open Sans;
+  font-size: 16px;
+  background-color: $blanc;
+  margin-left: 130px;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.lorem_Premiere {
+  font-family: Open Sans;
+  font-size: 16px;
+  color: $violet;
+  margin-right: 30px;
+  margin-top: 11px;
+}
+
+.t4_Premiere {
+  font-family: Open Sans;
+  font-size: 14px;
+  color: $rouge;
+  margin-top: 10px;
+  text-decoration: underline;
+  margin-top: 15px;
+}
+
+.fond_Recherche {
+  width: 1280px;
+  height: 167px;
+  background-color: $rouge;
+  margin-top: 392px;
+}
+
+.titre_Recherche {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: $blanc3;
+}
+
+.fond_Archi {
+  width: 516px;
+  height: 408px;
+  background-color: $blanc3;
+}
+
+.contain_Archi {
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 11px;
+}
+
+.titre_Archi {
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: bold;
+  color: $mauve;
+  margin-top: 30px;
+}
+
+.illustration_Centre {
+  background-color: $blanc;
+  margin-left: 516px;
+  margin-top: -266px;
+}
+
+.fond_Actualites {
+  align-content: 764px;
+  height: 408px;
+  background-color: $blanc;
+  margin-left: 516px;
+}
+
+.titre_Actu {
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: bold;
+  color: $mauve;
+  margin-top: -370px;
+  margin-left: 30px;
+}
+
+.lorem_Actu {
+  font-family: Open Sans;
+  font-size: 16px;
+  color: $violet;
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-left: 278px;
+}
+
+.t1_Actu {
+  font-family: Open Sans;
+  font-size: 14px;
+  color: $rouge;
+  margin-top: 10px;
+  text-decoration: underline;
+  margin-top: 15px;
+  margin-left: 278px;
+}
+
+.t2_Actu {
+  font-family: Open Sans;
+  font-size: 14px;
+  color: $rouge;
+  margin-top: 10px;
+  text-decoration: underline;
+  margin-top: -20px;
+  margin-left: 250px;
+}
+
+.Z_Separation {
+  margin-top: 60px;
+}
+
+.t1_Separation {
+  font-family: Montserrat;
+  font-size: 31px;
+  font-weight: bold;
+  color: $mauve;
+}
+
+.t2_Separation {
+  font-family: Montserrat;
+  font-size: 31px;
+  font-weight: bold;
+  color: $mauve;
+  margin-left: 920px;
+  margin-top: -40px;
+}
+
+.Z_Commentaires {
+  height: 260px;
+}
+
+.titres_Commentaires {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  color: $mauve;
+  margin-left: 963px;
+  margin-top: 36px;
+}
+
+.t1_Commentaires {
+  font-family: Open Sans;
+  font-size: 14px;
+  color: $rouge;
+  margin-top: 10px;
+  text-decoration: underline;
+  margin-left: 963px;
+}
+
+.lorem_Commentaires {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: italic;
+  color: $gris;
+  margin-left: 963px;
+  margin-top: 10px;
+}
+
+.t1_Commentaires {
+  font-family: Open Sans;
+  font-size: 14px;
+  color: $rouge;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+.Z_Modifications {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  color: $mauve;
+  margin-left: 963px;
+  margin-top: 36px;
+}
+
+.img_Modifications {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  color: $mauve;
+  margin-top: -1445px;
+  width: 407px;
+  height: 350px;
+}
+
+.t1_Modifications {
+  font-family: Open Sans;
+  font-size: 14px;
+  color: $rouge;
+  margin-top: 10px;
+  text-decoration: underline;
+  margin-left: 963px;
+}
+
+.lorem_Modifications {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: italic;
+  color: $gris;
+  margin-left: 963px;
+  margin-top: 10px;
+}
+
+.titres_Modifications {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  color: $mauve;
+  margin-left: 437px;
+  margin-top: -320px;
+}
+
+.t3_Modifications {
+  font-family: Open Sans;
+  font-size: 14px;
+  color: $rouge;
+  margin-top: 5px;
+  margin-left: 437px;
+}
+
+.lorem_Modifications {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: italic;
+  color: $gris;
+  margin-left: 437px;
+  width: 376px;
+  margin-top: 20px;
+}
+
+.t1_Modifications {
+  font-family: Open Sans;
+  font-size: 14px;
+  color: $rouge;
+  margin-top: 10px;
+  text-decoration: underline;
+  margin-left: 437px;
+}
+
+.Z_Modifications2 {
+  font-family: Montserrat;
+  font-size: 20px;
+  color: $mauve;
+  margin-top: 1600px;
+}
+
+.img_Modifications2 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  color: $mauve;
+  margin-top: -1445px;
+  width: 407px;
+  height: 350px;
+}
+
+.titres_Modifications2 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  color: $mauve;
+  margin-top: -80px;
+}
+
+.lorem_Modifications2 {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: italic;
+  color: $gris;
+  width: 376px;
+  margin-top: 20px;
+}
+
+.t1_Modifications2 {
+  font-family: Open Sans;
+  font-size: 14px;
+  color: $rouge;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+.t3_Modifications2 {
+  font-family: Open Sans;
+  font-size: 14px;
+  color: $rouge;
+  margin-top: 5px;
+}
+
+.Z_Modifications3 {
+  font-family: Montserrat;
+  font-size: 20px;
+  color: $mauve;
+  margin-top: 1600px;
+  margin-left: 457px;
+}
+
+.img_Modifications3 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  color: $mauve;
+  margin-top: -1118px;
+  width: 407px;
+  height: 350px;
+  margin-left: 457px;
+}
+
+.titres_Modifications3 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  color: $mauve;
+  margin-top: -80px;
+  margin-left: 457px;
+}
+
+.lorem_Modifications3 {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: italic;
+  color: $gris;
+  width: 376px;
+  margin-top: 20px;
+  margin-left: 457px;
+}
+
+.t1_Modifications3 {
+  font-family: Open Sans;
+  font-size: 14px;
+  color: $rouge;
+  margin-top: 10px;
+  text-decoration: underline;
+  margin-left: 457px;
+}
+
+.t3_Modifications3 {
+  font-family: Open Sans;
+  font-size: 14px;
+  color: $rouge;
+  margin-top: -1840px;
+  margin-left: 457px;
+}
+
+.Z_Modifications4 {
+  font-family: Montserrat;
+  font-size: 20px;
+  color: $mauve;
+  margin-top: -100px;
+  margin-left: 0px;
+}
+
+.img_Modifications4 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  color: $mauve;
+  margin-top: 2000px;
+  width: 407px;
+  height: 350px;
+  margin-left: 457px;
+}
+
+.titres_Modifications4 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  color: $mauve;
+  margin-top: -80px;
+  margin-left: 457px;
+}
+
+.lorem_Modifications4 {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: italic;
+  color: $gris;
+  width: 376px;
+  margin-top: 20px;
+  margin-left: 457px;
+}
+
+.t1_Modifications4 {
+  font-family: Open Sans;
+  font-size: 14px;
+  color: $rouge;
+  margin-top: 10px;
+  text-decoration: underline;
+  margin-left: 457px;
+}
+
+.t3_Modifications4 {
+  font-family: Open Sans;
+  font-size: 14px;
+  color: $rouge;
+  margin-top: 5px;
+  margin-left: 457px;
+}
